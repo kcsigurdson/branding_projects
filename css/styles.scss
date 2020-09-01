@@ -2111,7 +2111,7 @@
       width: 40px;
       height: 40px;
       content: '';
-      background: #FED954;
+      // background: #FED954;
       z-index: -1;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -2122,6 +2122,23 @@
       border-radius: 50%; }
     .navbar-brand span {
       color: #fff; }
+
+			.top-logo {
+      position: absolute;
+      top: 50%;
+      left: -12px;
+      width: 70px;
+      height: 70px;
+      content: '';
+      /* background: #FED954; */
+      z-index: -1;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
 
       .ftco-footer {
         font-size: 16px;
